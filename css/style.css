@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #130f40;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+    padding-top: 3rem;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+form{
+    background: rgba(245, 245, 245, 0.158);
+    border-radius: 10px;
+}
+form input , form button{
+    padding: 1rem 2rem;
+    border: none;
+    background: transparent;
+    color: white;
+}
+form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+form button{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
